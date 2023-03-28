@@ -1,5 +1,11 @@
 const client = (() => {
     let serviceWorkerRegObj = undefined;
+    const notificationbutton = document.getElementById("btn-notify")
+
+    const showNotificationButton = () => {
+        notificationbutton.style.display = "block"
+    }
+
     const checkNotifSupport = () => {
         if (!("Notification" in window)) {
             return Promise.reject("Notification is not supported")

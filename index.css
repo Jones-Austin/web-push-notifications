@@ -12,6 +12,36 @@ h1 {
     padding-top: 1em;
     padding-bottom: 1em;
 }
+.buttons-container{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid #f4e04d;
+    border-radius: 5px;
+    background-color: #f4e04d;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+#btn-notify{
+    background-color: lightgreen;
+    color: #000;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    border: 1px solid #f4e04d;
+    border-radius: 5px;
+    padding: 1em;
+    margin: 1em;
+}
+
 
 .app-bar {
     width: 100%;
